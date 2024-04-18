@@ -4,7 +4,10 @@ import Heading from "./Heading";
 
 function App() {
   return (
-    <Heading/>
+      <div className="App">
+        <Heading firstName = "Bob"/>
+        <Heading firstName = "Ayon"/>
+      </div>
   );
 }
 
